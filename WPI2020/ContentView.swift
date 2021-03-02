@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CameraView()
+        PlacesView(places: allPlaces)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PlacesView(places: allPlaces)
     }
 }
