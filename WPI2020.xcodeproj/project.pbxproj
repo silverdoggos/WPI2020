@@ -11,6 +11,9 @@
 		6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59684325ED69E2003A1D3C /* ContentView.swift */; };
 		6E59684625ED69E3003A1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684525ED69E3003A1D3C /* Assets.xcassets */; };
 		6E59684925ED69E3003A1D3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */; };
+		6EC82FD125EE99C00017DC04 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC82FD025EE99C00017DC04 /* CameraPreview.swift */; };
+		6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6F83A25EE934400F652DB /* CameraView.swift */; };
+		6EE6F83E25EE935600F652DB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6F83D25EE935600F652DB /* CameraModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		6E59684525ED69E3003A1D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E59684A25ED69E3003A1D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC82FD025EE99C00017DC04 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		6EE6F83A25EE934400F652DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6EE6F83D25EE935600F652DB /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			children = (
 				6E59684125ED69E2003A1D3C /* WPI2020App.swift */,
 				6E59684325ED69E2003A1D3C /* ContentView.swift */,
+				6EE6F84025EE935D00F652DB /* Camera */,
 				6E59684525ED69E3003A1D3C /* Assets.xcassets */,
 				6E59684A25ED69E3003A1D3C /* Info.plist */,
 				6E59684725ED69E3003A1D3C /* Preview Content */,
@@ -67,6 +74,16 @@
 				6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EE6F84025EE935D00F652DB /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6F83A25EE934400F652DB /* CameraView.swift */,
+				6EE6F83D25EE935600F652DB /* CameraModel.swift */,
+				6EC82FD025EE99C00017DC04 /* CameraPreview.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC82FD125EE99C00017DC04 /* CameraPreview.swift in Sources */,
+				6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */,
 				6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */,
+				6EE6F83E25EE935600F652DB /* CameraModel.swift in Sources */,
 				6E59684225ED69E2003A1D3C /* WPI2020App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
