@@ -7,35 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E38EA6F25F02E5200430229 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E38EA6E25F02E5200430229 /* ARViewController.swift */; };
 		6E59684225ED69E2003A1D3C /* WPI2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59684125ED69E2003A1D3C /* WPI2020App.swift */; };
 		6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59684325ED69E2003A1D3C /* ContentView.swift */; };
 		6E59684625ED69E3003A1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684525ED69E3003A1D3C /* Assets.xcassets */; };
 		6E59684925ED69E3003A1D3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */; };
-		6EC82FD125EE99C00017DC04 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC82FD025EE99C00017DC04 /* CameraPreview.swift */; };
 		6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6F83A25EE934400F652DB /* CameraView.swift */; };
-		6EE6F83E25EE935600F652DB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6F83D25EE935600F652DB /* CameraModel.swift */; };
 		C6F18D9225EEC7DD009E5F5B /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */; };
 		C6F18D9725EEC836009E5F5B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9625EEC836009E5F5B /* Place.swift */; };
-		C6F18D9B25EEC9F2009E5F5B /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9A25EEC9F2009E5F5B /* GlobalHelpers.swift */; };
-		C6F18DAB25EEE7B5009E5F5B /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18DAA25EEE7B5009E5F5B /* ARView.swift */; };
-		C6F18DAE25EEE995009E5F5B /* ARView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18DAD25EEE995009E5F5B /* ARView2.swift */; };
+		C6F18D9B25EEC9F2009E5F5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9A25EEC9F2009E5F5B /* Constants.swift */; };
+		C6F18DAB25EEE7B5009E5F5B /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18DAA25EEE7B5009E5F5B /* ARViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E38EA6E25F02E5200430229 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		6E59683E25ED69E2003A1D3C /* WPI2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPI2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E59684125ED69E2003A1D3C /* WPI2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPI2020App.swift; sourceTree = "<group>"; };
 		6E59684325ED69E2003A1D3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E59684525ED69E3003A1D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E59684A25ED69E3003A1D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EC82FD025EE99C00017DC04 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 		6EE6F83A25EE934400F652DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		6EE6F83D25EE935600F652DB /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 		C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
 		C6F18D9625EEC836009E5F5B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		C6F18D9A25EEC9F2009E5F5B /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
-		C6F18DAA25EEE7B5009E5F5B /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
-		C6F18DAD25EEE995009E5F5B /* ARView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView2.swift; sourceTree = "<group>"; };
+		C6F18D9A25EEC9F2009E5F5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C6F18DAA25EEE7B5009E5F5B /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E38EA7325F02F4800430229 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E38EA7725F0314000430229 /* ARViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6E38EA7725F0314000430229 /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6F18DAA25EEE7B5009E5F5B /* ARViewRepresentable.swift */,
+				6E38EA6E25F02E5200430229 /* ARViewController.swift */,
+			);
+			path = ARViewController;
+			sourceTree = "<group>";
+		};
 		6E59683525ED69E2003A1D3C = {
 			isa = PBXGroup;
 			children = (
@@ -70,12 +83,10 @@
 			children = (
 				6E59684125ED69E2003A1D3C /* WPI2020App.swift */,
 				6E59684325ED69E2003A1D3C /* ContentView.swift */,
-				C6F18DAD25EEE995009E5F5B /* ARView2.swift */,
-				C6F18DAA25EEE7B5009E5F5B /* ARView.swift */,
-				C6F18D9425EEC7F9009E5F5B /* Places */,
-				6EE6F84025EE935D00F652DB /* Camera */,
+				C6F18D9425EEC7F9009E5F5B /* Views */,
+				6E38EA7325F02F4800430229 /* ViewControllers */,
 				C6F18D9E25EECEA8009E5F5B /* Model */,
-				C6F18D9925EEC9D4009E5F5B /* Helpers */,
+				C6F18D9925EEC9D4009E5F5B /* Constants */,
 				6E59684525ED69E3003A1D3C /* Assets.xcassets */,
 				6E59684A25ED69E3003A1D3C /* Info.plist */,
 				6E59684725ED69E3003A1D3C /* Preview Content */,
@@ -91,36 +102,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6EE6F84025EE935D00F652DB /* Camera */ = {
+		C6F18D9425EEC7F9009E5F5B /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				6EE6F83A25EE934400F652DB /* CameraView.swift */,
-				6EC82FD025EE99C00017DC04 /* CameraPreview.swift */,
-			);
-			path = Camera;
-			sourceTree = "<group>";
-		};
-		C6F18D9425EEC7F9009E5F5B /* Places */ = {
-			isa = PBXGroup;
-			children = (
 				C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */,
 			);
-			path = Places;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		C6F18D9925EEC9D4009E5F5B /* Helpers */ = {
+		C6F18D9925EEC9D4009E5F5B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				C6F18D9A25EEC9F2009E5F5B /* GlobalHelpers.swift */,
+				C6F18D9A25EEC9F2009E5F5B /* Constants.swift */,
 			);
-			path = Helpers;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		C6F18D9E25EECEA8009E5F5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C6F18D9625EEC836009E5F5B /* Place.swift */,
-				6EE6F83D25EE935600F652DB /* CameraModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,14 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F18D9225EEC7DD009E5F5B /* PlacesView.swift in Sources */,
-				6EC82FD125EE99C00017DC04 /* CameraPreview.swift in Sources */,
-				C6F18DAE25EEE995009E5F5B /* ARView2.swift in Sources */,
-				C6F18DAB25EEE7B5009E5F5B /* ARView.swift in Sources */,
-				C6F18D9B25EEC9F2009E5F5B /* GlobalHelpers.swift in Sources */,
+				C6F18DAB25EEE7B5009E5F5B /* ARViewRepresentable.swift in Sources */,
+				C6F18D9B25EEC9F2009E5F5B /* Constants.swift in Sources */,
+				6E38EA6F25F02E5200430229 /* ARViewController.swift in Sources */,
 				6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */,
 				C6F18D9725EEC836009E5F5B /* Place.swift in Sources */,
 				6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */,
-				6EE6F83E25EE935600F652DB /* CameraModel.swift in Sources */,
 				6E59684225ED69E2003A1D3C /* WPI2020App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WPI2020/Preview Content\"";
-				DEVELOPMENT_TEAM = HA6U36VJYV;
+				DEVELOPMENT_TEAM = X63B5429QJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WPI2020/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -341,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergeyObraztsov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shishkinartem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WPI2020/Preview Content\"";
-				DEVELOPMENT_TEAM = HA6U36VJYV;
+				DEVELOPMENT_TEAM = X63B5429QJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WPI2020/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -363,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergeyObraztsov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shishkinartem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

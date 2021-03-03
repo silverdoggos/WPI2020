@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PlacesView: View {
     
-    var places: [Place]
+    private var places: [Place] = Constants.allPlaces
     
     var body: some View {
         NavigationView {
@@ -18,7 +18,6 @@ struct PlacesView: View {
                     NavigationLink(destination: CameraView(place: place)) {
                         HStack {
                             Text(place.name)
-                        
                         }
                     }
                 }
@@ -30,6 +29,6 @@ struct PlacesView: View {
 
 struct PlacesView_Previews: PreviewProvider {
     static var previews: some View {
-        PlacesView(places: allPlaces)
+        PlacesView()
     }
 }
