@@ -13,9 +13,11 @@ struct CameraView: View {
     var place: Place
     
     var body: some View {
-        ZStack {
+        VStack {
+            NavigationIndicator()
             CameraPreview(cameraModel: cameraModel)
                 .edgesIgnoringSafeArea(.all)
+                
                 
             .navigationTitle(place.name)
             .navigationBarTitleDisplayMode(.inline)
