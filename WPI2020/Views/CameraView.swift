@@ -8,7 +8,6 @@
 import SwiftUI
 import AVFoundation
 
-
 struct CameraView: View {
     // MARK: - Private constant
     private let arViewController = ARViewController.shared
