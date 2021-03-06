@@ -9,15 +9,16 @@ import ARKit
 import SwiftUI
 
 class ARViewController: UIViewController, ARSCNViewDelegate {
-    
-   private var arView: ARSCNView {
+    static let shared = ARViewController()
+    // MARK: - Private variables
+    private var arView: ARSCNView {
         return self.view as! ARSCNView
     }
     
     // MARK: - Livecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view = ARSCNView(frame: .zero)
+        self.view = ARSCNView()
         arView.delegate = self
         arView.scene = SCNScene()
     }
@@ -39,4 +40,9 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     {}
     func session(_ session: ARSession, cameraDidChangeTrackingState
                     camera: ARCamera) {}
+    
+    // MARK: - Action
+    func takeSnapshot() -> UIImage {
+        return arView.snapshot()
+    }
 }
