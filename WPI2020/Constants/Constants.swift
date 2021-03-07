@@ -8,8 +8,8 @@
 import Foundation
 enum Constants {
     static let allPlaces = [
-        Place(id: UUID().uuidString, name: "Финансовый Университет"),
-        Place(id: UUID().uuidString, name: "Worcester Polytechnic Institute"),
-        Place(id: UUID().uuidString, name: "Высшая Школа Экономики")
+        Place(id: UUID().uuidString, name: PlacesStrings.financialUniv),
+        Place(id: UUID().uuidString, name: PlacesStrings.wpUniv),
+        Place(id: UUID().uuidString, name: PlacesStrings.hseUniv)
     ]
 }

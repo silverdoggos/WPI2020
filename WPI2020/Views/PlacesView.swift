@@ -22,7 +22,7 @@ struct PlacesView: View {
                     }
                 }
             }
-            .navigationTitle("Выберите место")
+            .navigationTitle(PlacesStrings.pickAPlace)
         }
     }
 }
