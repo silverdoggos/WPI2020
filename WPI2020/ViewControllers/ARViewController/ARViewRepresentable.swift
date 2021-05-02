@@ -11,8 +11,9 @@ struct ARViewRepresentable: UIViewControllerRepresentable {
     typealias UIViewControllerType = ARViewController
     
     func makeUIViewController(context: Context) -> ARViewController {
-        return ARViewController()
+        return ARViewController.shared
     }
+    
     func updateUIViewController(_ uiViewController:
                                     ARViewRepresentable.UIViewControllerType, context:
                                         UIViewControllerRepresentableContext<ARViewRepresentable>) { }

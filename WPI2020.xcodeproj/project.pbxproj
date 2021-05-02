@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E22D6BB25F502CE0004B65E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E22D6BD25F502CE0004B65E /* Localizable.strings */; };
+		6E22D6C025F503A70004B65E /* LanguageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22D6BF25F503A70004B65E /* LanguageConstants.swift */; };
 		6E38EA6F25F02E5200430229 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E38EA6E25F02E5200430229 /* ARViewController.swift */; };
+		6E43D850263A16EE00943FE4 /* GlobalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E43D84F263A16EE00943FE4 /* GlobalManager.swift */; };
+		6E573A23263AC76600BAA376 /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E573A22263AC76600BAA376 /* RoundedCornersShape.swift */; };
 		6E59684225ED69E2003A1D3C /* WPI2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59684125ED69E2003A1D3C /* WPI2020App.swift */; };
 		6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59684325ED69E2003A1D3C /* ContentView.swift */; };
 		6E59684625ED69E3003A1D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684525ED69E3003A1D3C /* Assets.xcassets */; };
 		6E59684925ED69E3003A1D3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */; };
+		6E5C0DE02631B7FD008CD8DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C0DDF2631B7FD008CD8DF /* NetworkManager.swift */; };
+		6EB4FC7E2639FFB6005B6042 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4FC7D2639FFB6005B6042 /* LocationManager.swift */; };
 		6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6F83A25EE934400F652DB /* CameraView.swift */; };
+		6EE710D925F4325200CA3C4C /* PlaceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE710D825F4325200CA3C4C /* PlaceImage.swift */; };
+		A632BB2E6C19A5FA98E2869D /* Pods_WPI2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D8BA0D14AA91EF372954C /* Pods_WPI2020.framework */; };
 		C6F18D9225EEC7DD009E5F5B /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */; };
 		C6F18D9725EEC836009E5F5B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9625EEC836009E5F5B /* Place.swift */; };
 		C6F18D9B25EEC9F2009E5F5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F18D9A25EEC9F2009E5F5B /* Constants.swift */; };
@@ -20,14 +28,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4D8BA0D14AA91EF372954C /* Pods_WPI2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPI2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276765CD4E005F9D01C2796D /* Pods-WPI2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPI2020.release.xcconfig"; path = "Target Support Files/Pods-WPI2020/Pods-WPI2020.release.xcconfig"; sourceTree = "<group>"; };
+		6E22D6BC25F502CE0004B65E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E22D6BE25F502D10004B65E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E22D6BF25F503A70004B65E /* LanguageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageConstants.swift; sourceTree = "<group>"; };
 		6E38EA6E25F02E5200430229 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		6E43D84F263A16EE00943FE4 /* GlobalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalManager.swift; sourceTree = "<group>"; };
+		6E573A22263AC76600BAA376 /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
 		6E59683E25ED69E2003A1D3C /* WPI2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPI2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E59684125ED69E2003A1D3C /* WPI2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPI2020App.swift; sourceTree = "<group>"; };
 		6E59684325ED69E2003A1D3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E59684525ED69E3003A1D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E59684825ED69E3003A1D3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E59684A25ED69E3003A1D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5C0DDF2631B7FD008CD8DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6EB4FC7D2639FFB6005B6042 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		6EE6F83A25EE934400F652DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6EE710D825F4325200CA3C4C /* PlaceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImage.swift; sourceTree = "<group>"; };
+		7FD065E5333D7BE9A165DC03 /* Pods-WPI2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPI2020.debug.xcconfig"; path = "Target Support Files/Pods-WPI2020/Pods-WPI2020.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
 		C6F18D9625EEC836009E5F5B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		C6F18D9A25EEC9F2009E5F5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -39,12 +58,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A632BB2E6C19A5FA98E2869D /* Pods_WPI2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D456EF5D6DFF9E3A0201CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD065E5333D7BE9A165DC03 /* Pods-WPI2020.debug.xcconfig */,
+				276765CD4E005F9D01C2796D /* Pods-WPI2020.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6E38EA7325F02F4800430229 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +96,8 @@
 			children = (
 				6E59684025ED69E2003A1D3C /* WPI2020 */,
 				6E59683F25ED69E2003A1D3C /* Products */,
+				3D456EF5D6DFF9E3A0201CA4 /* Pods */,
+				BE3F343157962856869A11F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +117,12 @@
 				C6F18D9425EEC7F9009E5F5B /* Views */,
 				6E38EA7325F02F4800430229 /* ViewControllers */,
 				C6F18D9E25EECEA8009E5F5B /* Model */,
+				6E5C0DE22631B808008CD8DF /* Managers */,
 				C6F18D9925EEC9D4009E5F5B /* Constants */,
 				6E59684525ED69E3003A1D3C /* Assets.xcassets */,
 				6E59684A25ED69E3003A1D3C /* Info.plist */,
+				6E22D6BF25F503A70004B65E /* LanguageConstants.swift */,
+				6E22D6BD25F502CE0004B65E /* Localizable.strings */,
 				6E59684725ED69E3003A1D3C /* Preview Content */,
 			);
 			path = WPI2020;
@@ -102,11 +136,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6E5C0DE22631B808008CD8DF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C0DDF2631B7FD008CD8DF /* NetworkManager.swift */,
+				6EB4FC7D2639FFB6005B6042 /* LocationManager.swift */,
+				6E43D84F263A16EE00943FE4 /* GlobalManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BE3F343157962856869A11F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D8BA0D14AA91EF372954C /* Pods_WPI2020.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6F18D9425EEC7F9009E5F5B /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				6EE6F83A25EE934400F652DB /* CameraView.swift */,
 				C6F18D9125EEC7DD009E5F5B /* PlacesView.swift */,
+				6E573A22263AC76600BAA376 /* RoundedCornersShape.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				C6F18D9625EEC836009E5F5B /* Place.swift */,
+				6EE710D825F4325200CA3C4C /* PlaceImage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E59684D25ED69E3003A1D3C /* Build configuration list for PBXNativeTarget "WPI2020" */;
 			buildPhases = (
+				D97CE6DEA47A6F16C0781AF2 /* [CP] Check Pods Manifest.lock */,
 				6E59683A25ED69E2003A1D3C /* Sources */,
 				6E59683B25ED69E2003A1D3C /* Frameworks */,
 				6E59683C25ED69E2003A1D3C /* Resources */,
+				1CF362740FE3FE9191FA8B2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6E59683525ED69E2003A1D3C;
 			productRefGroup = 6E59683F25ED69E2003A1D3C /* Products */;
@@ -185,11 +242,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E59684925ED69E3003A1D3C /* Preview Assets.xcassets in Resources */,
+				6E22D6BB25F502CE0004B65E /* Localizable.strings in Resources */,
 				6E59684625ED69E3003A1D3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF362740FE3FE9191FA8B2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WPI2020/Pods-WPI2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WPI2020/Pods-WPI2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WPI2020/Pods-WPI2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97CE6DEA47A6F16C0781AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPI2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E59683A25ED69E2003A1D3C /* Sources */ = {
@@ -197,10 +297,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F18D9225EEC7DD009E5F5B /* PlacesView.swift in Sources */,
+				6EE710D925F4325200CA3C4C /* PlaceImage.swift in Sources */,
 				C6F18DAB25EEE7B5009E5F5B /* ARViewRepresentable.swift in Sources */,
+				6E43D850263A16EE00943FE4 /* GlobalManager.swift in Sources */,
 				C6F18D9B25EEC9F2009E5F5B /* Constants.swift in Sources */,
+				6E5C0DE02631B7FD008CD8DF /* NetworkManager.swift in Sources */,
+				6E573A23263AC76600BAA376 /* RoundedCornersShape.swift in Sources */,
 				6E38EA6F25F02E5200430229 /* ARViewController.swift in Sources */,
 				6EE6F83B25EE934400F652DB /* CameraView.swift in Sources */,
+				6E22D6C025F503A70004B65E /* LanguageConstants.swift in Sources */,
+				6EB4FC7E2639FFB6005B6042 /* LocationManager.swift in Sources */,
 				C6F18D9725EEC836009E5F5B /* Place.swift in Sources */,
 				6E59684425ED69E2003A1D3C /* ContentView.swift in Sources */,
 				6E59684225ED69E2003A1D3C /* WPI2020App.swift in Sources */,
@@ -208,6 +314,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E22D6BD25F502CE0004B65E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E22D6BC25F502CE0004B65E /* en */,
+				6E22D6BE25F502D10004B65E /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6E59684B25ED69E3003A1D3C /* Debug */ = {
@@ -328,6 +446,7 @@
 		};
 		6E59684E25ED69E3003A1D3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD065E5333D7BE9A165DC03 /* Pods-WPI2020.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shishkinartem;
+				PRODUCT_BUNDLE_IDENTIFIER = shishkinart.wpi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +469,7 @@
 		};
 		6E59684F25ED69E3003A1D3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276765CD4E005F9D01C2796D /* Pods-WPI2020.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -363,7 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shishkinartem;
+				PRODUCT_BUNDLE_IDENTIFIER = shishkinart.wpi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

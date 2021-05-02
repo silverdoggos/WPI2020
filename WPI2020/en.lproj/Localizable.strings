@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  WPI2020
+
+  Created by Artem Shishkin on 07.03.2021.
+  
+*/
+
+/* places screen */
+"Financial University" = "Financial University";
+"Higher School of Economics" = "Higher School of Economics";
+"Worcester Polytechnic Institute" = "Worcester Polytechnic Institute";
+
+"Choose the place or wait when we get your location..." = "Choose the place or wait when we get your location...";
+"Choose the place" = "Choose the place";
